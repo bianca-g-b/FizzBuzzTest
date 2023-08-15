@@ -1,0 +1,21 @@
+.list-group-item {
+    background-color:rgb(238, 241, 241);
+    border: 1px solid rgb(139, 174, 174);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fizz {
+    background-color:rgb(253, 253, 188);
+}
+
+.buzz {
+    background-color:rgb(244, 216, 162);
+}
+
+.fizzbuzz {
+    background-color:rgb(177, 247, 177);
+}
+
+.fizzbuzz-title {
+    color: rgb(5, 62, 54);
+}

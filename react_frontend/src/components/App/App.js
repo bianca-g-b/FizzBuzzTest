@@ -25,7 +25,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>FizzBuzz</h1>
       <FizzBuzzList 
           fizzBuzzArray={fizzBuzzArray}/>
     </div>
