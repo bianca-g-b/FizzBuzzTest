@@ -2,9 +2,12 @@
 from flask import Flask, request, jsonify
 # import fizz_buzz_functions.py
 import fizz_buzz_functions
+#import cors to connect to the frontend
+from flask_cors import CORS
 
 #create flask app
 app = Flask(__name__)
+CORS(app)
 
 #create route and initialise the server
 @app.route("/")
@@ -18,7 +21,7 @@ added_nums_list = add_nums_to_json(100)
 #create route for numbers
 @app.route("/api/numbers", methods = ["GET"])
 def get_nums():
-    print("nums: ", added_nums_list) # test
+    # print("nums: ", added_nums_list) # test
     if (len(added_nums_list)==0): #if list is empty
         return "No numbers found", 404 #return that no numbers are found
     return jsonify(added_nums_list), 200 #else return populated list in json format
