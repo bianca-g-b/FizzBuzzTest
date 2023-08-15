@@ -1,21 +1,21 @@
 .list-group-item {
-    background-color:rgb(238, 241, 241);
-    border: 1px solid rgb(139, 174, 174);
+    background-color:rgb(238, 241, 241) !important;
+    border: 1px solid rgb(139, 174, 174) !important;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .fizz {
-    background-color:rgb(253, 253, 188);
+    background-color:rgb(253, 253, 188) !important;
 }
 
 .buzz {
-    background-color:rgb(244, 216, 162);
+    background-color:rgb(244, 216, 162) !important;
 }
 
 .fizzbuzz {
-    background-color:rgb(177, 247, 177);
+    background-color:rgb(177, 247, 177) !important;
 }
 
 .fizzbuzz-title {
-    color: rgb(5, 62, 54);
+    color: rgb(5, 62, 54) !important;
 }
